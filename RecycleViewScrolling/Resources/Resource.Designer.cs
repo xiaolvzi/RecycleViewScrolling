@@ -279,20 +279,20 @@ namespace RecycleViewScrolling
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f05000f
-			public const int action_container = 2131034127;
-			
-			// aapt resource value: 0x7f05001b
-			public const int action_divider = 2131034139;
-			
 			// aapt resource value: 0x7f050010
-			public const int action_image = 2131034128;
-			
-			// aapt resource value: 0x7f050011
-			public const int action_text = 2131034129;
+			public const int action_container = 2131034128;
 			
 			// aapt resource value: 0x7f05001c
-			public const int actions = 2131034140;
+			public const int action_divider = 2131034140;
+			
+			// aapt resource value: 0x7f050011
+			public const int action_image = 2131034129;
+			
+			// aapt resource value: 0x7f050012
+			public const int action_text = 2131034130;
+			
+			// aapt resource value: 0x7f05001d
+			public const int actions = 2131034141;
 			
 			// aapt resource value: 0x7f050007
 			public const int async = 2131034119;
@@ -300,29 +300,29 @@ namespace RecycleViewScrolling
 			// aapt resource value: 0x7f050008
 			public const int blocking = 2131034120;
 			
-			// aapt resource value: 0x7f05001a
-			public const int chronometer = 2131034138;
+			// aapt resource value: 0x7f05001b
+			public const int chronometer = 2131034139;
 			
 			// aapt resource value: 0x7f050009
 			public const int forever = 2131034121;
 			
-			// aapt resource value: 0x7f050013
-			public const int icon = 2131034131;
+			// aapt resource value: 0x7f050014
+			public const int icon = 2131034132;
 			
-			// aapt resource value: 0x7f05001d
-			public const int icon_group = 2131034141;
+			// aapt resource value: 0x7f05001e
+			public const int icon_group = 2131034142;
 			
-			// aapt resource value: 0x7f050016
-			public const int info = 2131034134;
+			// aapt resource value: 0x7f050017
+			public const int info = 2131034135;
 			
 			// aapt resource value: 0x7f05000a
 			public const int italic = 2131034122;
 			
-			// aapt resource value: 0x7f05000c
-			public const int item_item_tv = 2131034124;
-			
 			// aapt resource value: 0x7f05000d
-			public const int item_rv = 2131034125;
+			public const int item_item_tv1 = 2131034125;
+			
+			// aapt resource value: 0x7f05000e
+			public const int item_item_tv2 = 2131034126;
 			
 			// aapt resource value: 0x7f050000
 			public const int item_touch_helper_previous_elevation = 2131034112;
@@ -333,26 +333,29 @@ namespace RecycleViewScrolling
 			// aapt resource value: 0x7f050002
 			public const int line3 = 2131034114;
 			
+			// aapt resource value: 0x7f05000c
+			public const int ll_container = 2131034124;
+			
 			// aapt resource value: 0x7f05000b
 			public const int normal = 2131034123;
 			
-			// aapt resource value: 0x7f050018
-			public const int notification_background = 2131034136;
-			
-			// aapt resource value: 0x7f050014
-			public const int notification_main_column = 2131034132;
-			
-			// aapt resource value: 0x7f050012
-			public const int notification_main_column_container = 2131034130;
-			
-			// aapt resource value: 0x7f050017
-			public const int right_icon = 2131034135;
+			// aapt resource value: 0x7f050019
+			public const int notification_background = 2131034137;
 			
 			// aapt resource value: 0x7f050015
-			public const int right_side = 2131034133;
+			public const int notification_main_column = 2131034133;
 			
-			// aapt resource value: 0x7f05000e
-			public const int rv = 2131034126;
+			// aapt resource value: 0x7f050013
+			public const int notification_main_column_container = 2131034131;
+			
+			// aapt resource value: 0x7f050018
+			public const int right_icon = 2131034136;
+			
+			// aapt resource value: 0x7f050016
+			public const int right_side = 2131034134;
+			
+			// aapt resource value: 0x7f05000f
+			public const int rv = 2131034127;
 			
 			// aapt resource value: 0x7f050003
 			public const int tag_transition_group = 2131034115;
@@ -363,8 +366,8 @@ namespace RecycleViewScrolling
 			// aapt resource value: 0x7f050005
 			public const int text2 = 2131034117;
 			
-			// aapt resource value: 0x7f050019
-			public const int time = 2131034137;
+			// aapt resource value: 0x7f05001a
+			public const int time = 2131034138;
 			
 			// aapt resource value: 0x7f050006
 			public const int title = 2131034118;
@@ -402,28 +405,25 @@ namespace RecycleViewScrolling
 			public const int item_item_layout = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int item_layout = 2130903041;
+			public const int Main = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Main = 2130903042;
+			public const int notification_action = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int notification_action = 2130903043;
+			public const int notification_action_tombstone = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int notification_action_tombstone = 2130903044;
+			public const int notification_template_custom_big = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int notification_template_custom_big = 2130903045;
+			public const int notification_template_icon_group = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int notification_template_icon_group = 2130903046;
+			public const int notification_template_part_chronometer = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int notification_template_part_chronometer = 2130903047;
-			
-			// aapt resource value: 0x7f030008
-			public const int notification_template_part_time = 2130903048;
+			public const int notification_template_part_time = 2130903047;
 			
 			static Layout()
 			{

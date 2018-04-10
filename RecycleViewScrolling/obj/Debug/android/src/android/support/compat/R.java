@@ -209,8 +209,8 @@ containing a value of this type.
         public static int icon_group=0x7f05001d;
         public static int info=0x7f050016;
         public static int italic=0x7f05000a;
-        public static int item_item_tv=0x7f05000c;
-        public static int item_rv=0x7f05000d;
+        public static int item_item_tv1=0x7f05000c;
+        public static int item_item_tv2=0x7f05000d;
         public static int item_touch_helper_previous_elevation=0x7f050000;
         public static int line1=0x7f050001;
         public static int line3=0x7f050002;
@@ -232,14 +232,13 @@ containing a value of this type.
     }
     public static final class layout {
         public static int item_item_layout=0x7f030000;
-        public static int item_layout=0x7f030001;
-        public static int main=0x7f030002;
-        public static int notification_action=0x7f030003;
-        public static int notification_action_tombstone=0x7f030004;
-        public static int notification_template_custom_big=0x7f030005;
-        public static int notification_template_icon_group=0x7f030006;
-        public static int notification_template_part_chronometer=0x7f030007;
-        public static int notification_template_part_time=0x7f030008;
+        public static int main=0x7f030001;
+        public static int notification_action=0x7f030002;
+        public static int notification_action_tombstone=0x7f030003;
+        public static int notification_template_custom_big=0x7f030004;
+        public static int notification_template_icon_group=0x7f030005;
+        public static int notification_template_part_chronometer=0x7f030006;
+        public static int notification_template_part_time=0x7f030007;
     }
     public static final class string {
         public static int app_name=0x7f060001;
