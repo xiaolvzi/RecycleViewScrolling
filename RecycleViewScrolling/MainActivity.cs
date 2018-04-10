@@ -38,13 +38,13 @@ namespace RecycleViewScrolling
         {
             IMyViewHolderClicks mListener;
            public TextView tv1,tv2;
-           public LinearLayout ll_container;
+           public RelativeLayout ll_container;
             public MyItemViewHolder(View itemView, IMyViewHolderClicks listener) : base(itemView)
             {
                 mListener = listener;
                 tv1 = itemView.FindViewById<TextView>(Resource.Id.item_item_tv1);
                 tv2 = itemView.FindViewById<TextView>(Resource.Id.item_item_tv2);
-                ll_container = itemView.FindViewById<LinearLayout>(Resource.Id.ll_container);
+                ll_container = itemView.FindViewById<RelativeLayout>(Resource.Id.ll_container);
                 tv1.SetOnClickListener(this);
                 tv2.SetOnClickListener(this);
                 ll_container.SetOnClickListener(this);
@@ -60,7 +60,7 @@ namespace RecycleViewScrolling
                         mListener.onTv2Click();
                         break;
                     case Resource.Id.ll_container:
-                        mListener.onItemClick();
+                        mListener.onItemClick(ll_container);
                         break;
                 }
 
@@ -91,6 +91,8 @@ namespace RecycleViewScrolling
                 MyItemViewHolder myItemViewHolder = holder as MyItemViewHolder;
                 myItemViewHolder.tv1.Text=mList[position];
                 myItemViewHolder.tv2.Text = "tv2";
+
+                myItemViewHolder.ll_container.Tag = position;
             }
 
             public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
@@ -100,9 +102,9 @@ namespace RecycleViewScrolling
             }
 
 
-            public void onItemClick()
+            public void onItemClick(View view)
             {
-                Toast.MakeText(mContext,"Item",ToastLength.Short).Show();
+                Toast.MakeText(mContext, view.Tag+"", ToastLength.Short).Show();
             }
 
             public void onTv1Click()
@@ -119,7 +121,7 @@ namespace RecycleViewScrolling
         public interface IMyViewHolderClicks
         {
             //itemView click event 
-             void onItemClick();
+             void onItemClick(View view);
             //tv1 click event
              void onTv1Click();
             //tv2 click event

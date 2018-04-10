@@ -43,3 +43,5 @@ C:\VS_WorkSpace\RecycleViewScrolling\RecycleViewScrolling\obj\Debug\linksrc\Recy
 C:\VS_WorkSpace\RecycleViewScrolling\RecycleViewScrolling\bin\Debug\RecycleViewScrolling.dll.mdb
 C:\VS_WorkSpace\RecycleViewScrolling\RecycleViewScrolling\obj\Debug\android\assets\RecycleViewScrolling.dll.mdb
 C:\VS_WorkSpace\RecycleViewScrolling\RecycleViewScrolling\obj\Debug\RecycleViewScrolling.csprojResolveAssemblyReference.cache
+C:\VS_WorkSpace\RecycleViewScrolling\RecycleViewScrolling\bin\Debug\RecycleViewScrolling.dll
+C:\VS_WorkSpace\RecycleViewScrolling\RecycleViewScrolling\obj\Debug\linksrc\RecycleViewScrolling.dll.mdb
